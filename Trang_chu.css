@@ -1,0 +1,113 @@
+.header {
+    background-image: url(http://nhahang2.giaodienwebmau.com/wp-content/uploads/2018/11/53-1920x230.jpg);
+    height: 200px;
+    display: flex;
+}
+
+body,
+html {
+    color: aliceblue;
+}
+
+.navbar {
+    background-color: rgba(255,255,255,0.5);
+    margin-top: 70px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    
+}
+.navbar-nav .nav-item a:hover {
+   box-shadow: 0 0 5px #33ffff, 0 0 5px #33ffff;
+	border-radius: 20px;
+	transition:0.3s;
+	color: rgb(0, 0, 0);
+}
+.navbar-nav a:hover {
+    color: black;
+}
+
+
+.content {
+    /* height: 1700px; */
+    background-image: url(http://calangtoanthang.vn/app/view/theme/default/image/main_bg2.jpg), linear-gradient(to bottom,black, transparent) ;
+    background-size: cover;
+    background-blend-mode: saturation;
+}
+.content .justify-content-center button {
+    margin-right: 30px;
+    margin-bottom: 20px;
+} 
+.carousel-item img {
+    width: 50px;
+}
+
+.signin {
+    background-image: url(http://calangtoanthang.vn/app/view/theme/default/image/main_bg2.jpg);
+    height: 300px;
+    border-top: 2px dotted white;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: none;
+    color: aliceblue;
+}
+
+input[type="submit"] {
+    width: 80px;
+    background: none;
+    color: aliceblue;
+}
+
+.signin .container {
+    margin-top: 80px;
+    margin-left: 350px;
+    position: absolute;
+}
+
+.footer {
+    width: 100%;
+    /* height: 400px; */
+    background-color: rgb(39, 25, 9);
+    border-top: 2px dotted white;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+/* slide ===================== */
+.carousel-item .anhchinhslide{
+    background-color: rgb(27, 26, 26);
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 5px;
+    width: 100%;
+
+}
+.carousel-item .anhchinhslide img{
+    width: 100%;
+    
+    height: auto;
+    object-fit: cover;
+}
+.carousel-item .anhchinhslide div{
+    width: 100%;
+}.button-menu{position: fixed;
+bottom:650px; left: 30px;
+width: 3%; height: 5%; display:none;}
+@media screen and (max-width: 991px) {
+  .button-menu{display: block;}
+}
+.check-inputsao:checked ~ .sao {
+        color: rgb(238, 255, 0);
+    }
+    .sao1 {
+        margin-left: 20px;
+        color: white;
+    }
